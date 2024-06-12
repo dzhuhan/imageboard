@@ -62,16 +62,13 @@ a {
 	width: 60vw;
 	height: 200vh;
 	display: grid;
-	grid-gap: 32px;
-	grid-template-columns: repeat(auto-fit, minmax(320px, 1fr));
+	grid-template-columns: repeat(auto-fit, minmax(240px, 1fr));
   	grid-auto-rows: 240px;
   	grid-auto-flow: row dense;
 	background: #f4f4f4;
 }
 
 .thumbnail {
-	width: 320px;
-	height: 240px;
 	margin: 5px;
 	padding: 2px;
 	border: 1px solid black;
