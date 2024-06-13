@@ -57,6 +57,9 @@ a {
 	transition: .3s;
 }
 
+.navbar a:hover {
+	color: #f11;
+}
 .content {
 	margin: 0 20vw;
 	width: 60vw;
