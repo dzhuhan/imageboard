@@ -61,7 +61,21 @@ a {
 	color: #f11;
 }
 .content {
-	margin: 0 20vw;
+	display: flex;
+}
+
+.sidebar {
+	width: 20vw;
+	height: 100vw;
+	padding: 30px;
+}
+
+.tags {
+	list-style-type: none;
+	font-family: 'Courier Prime';
+}
+
+.grid-container {
 	width: 60vw;
 	height: 200vh;
 	display: grid;
@@ -72,7 +86,7 @@ a {
 	background: #f4f4f4;
 }
 
-.content div {
+.grid-container div {
 	aspect-ratio: 1;
 }
 
