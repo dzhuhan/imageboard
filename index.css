@@ -65,15 +65,22 @@ a {
 	width: 60vw;
 	height: 200vh;
 	display: grid;
-	grid-template-columns: repeat(auto-fit, minmax(240px, 1fr));
-  	grid-auto-rows: 240px;
+	grid-gap: 5px;
+	grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+	grid-auto-rows: min-content;
   	grid-auto-flow: row dense;
 	background: #f4f4f4;
 }
 
+.content div {
+	aspect-ratio: 1;
+}
+
 .thumbnail {
+	/*
 	margin: 5px;
 	padding: 2px;
+	*/
 	border: 1px solid black;
 	background: #ffffff;
 	
