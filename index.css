@@ -9,7 +9,7 @@
 
 html,
 body {
-	height: 200vh;
+	height: 100vh;
 }
 
 footer {
@@ -61,12 +61,12 @@ a {
 	color: #f11;
 }
 .content {
+	min-height: 100vh;
 	display: flex;
 }
 
 .sidebar {
 	width: 20vw;
-	height: 100vw;
 	padding: 30px;
 }
 
@@ -76,8 +76,8 @@ a {
 }
 
 .grid-container {
-	width: 60vw;
-	height: 200vh;
+	width: 75vw;
+	padding: 5px;
 	display: grid;
 	grid-gap: 5px;
 	grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
