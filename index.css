@@ -1,5 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Marck+Script&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Courier+Prime&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Gochi+Hand&family=Noto+Color+Emoji&display=swap');
 
 * {
 	margin: 0;
@@ -60,7 +61,7 @@ a {
 .navbar a:hover {
 	color: #f11;
 }
-.content {
+.page {
 	min-height: 100vh;
 	display: flex;
 }
@@ -98,4 +99,32 @@ a {
 	border: 1px solid black;
 	background: #ffffff;
 	
+}
+
+.pagination {
+	padding: 5px;
+	display: flex;
+	justify-content: center;
+}
+
+.page-button {
+	width: 2.5rem;
+	height: 2.5rem;
+	margin-right: 0.25rem;
+	border-radius: 50%;
+	color: #000;
+	display: inline-flex;
+	justify-content: center;
+	align-items: center;
+	font-size: 1.25rem;
+	font-family: 'Gochi Hand';
+}
+
+.page-button:hover {
+	background-color: #eee;
+}
+
+.page-button:active {
+	color: #fff;
+	background-color: #f11;
 }
