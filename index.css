@@ -11,6 +11,7 @@
 html,
 body {
 	height: 100vh;
+	font-family: 'Courier Prime';
 }
 
 footer {
@@ -69,6 +70,19 @@ a {
 .sidebar {
 	width: 20vw;
 	padding: 30px;
+}
+
+#query {
+	margin-bottom: 20px;
+}
+
+#search {
+	background-color: white;
+	border: 2px solid black;
+	color: #111;
+	font-size: 15px;
+	box-shadow: 3px 3px black;
+	outline: none;
 }
 
 .tags {
