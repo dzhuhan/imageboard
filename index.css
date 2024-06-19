@@ -31,7 +31,7 @@ header {
 	display: flex;
 	justify-content: space-between;
 	align-items: center;
-	font-family: 'Marck Script', cursive;
+	font-family: 'Gochi Hand', cursive;
 }
 
 a {
@@ -43,7 +43,7 @@ a {
 	font-size: 30px;
 	color: #000;
 	font-weight: 600;
-	transition: .3s;
+	transition: 0.05s;
 }
 
 
@@ -56,7 +56,7 @@ a {
 	font-size: 23px;
 	color: #000;
 	font-weight: 600;
-	transition: .3s;
+	transition: 0.05s;
 }
 
 .navbar a:hover {
@@ -77,12 +77,17 @@ a {
 }
 
 #search {
+	padding: 1px;
 	background-color: white;
-	border: 2px solid black;
+	border: 1px solid black;
 	color: #111;
-	font-size: 15px;
-	box-shadow: 3px 3px black;
 	outline: none;
+	font-size: 1em;
+	transition: 0.05s;
+}
+
+#search:focus {
+	box-shadow: -3px 3px black;
 }
 
 .tags {
@@ -92,7 +97,7 @@ a {
 
 .grid-container {
 	width: 75vw;
-	padding: 5px;
+	padding: 30px 5px;
 	display: grid;
 	grid-gap: 5px;
 	grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
@@ -106,13 +111,15 @@ a {
 }
 
 .thumbnail {
-	/*
-	margin: 5px;
-	padding: 2px;
-	*/
 	border: 1px solid black;
 	background: #ffffff;
-	
+	transition: 0.1s;
+}
+
+.thumbnail:hover {
+	translate: 2px -2px;
+	background: #ffffff;
+	box-shadow: -3px 3px black;
 }
 
 .pagination {
