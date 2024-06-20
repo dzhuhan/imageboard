@@ -15,9 +15,22 @@ body {
 }
 
 footer {
-	height: 20vh;
+	display: grid;
 	width: 100vw;
-	background: #aaaaaa;
+	padding: 20px;
+	background: rgb(32,233,255);
+	background: linear-gradient(147deg, rgba(32,233,255,1) 0%, rgba(0,3,255,1) 100%); 
+	justify-content: center;
+	text-align: center;
+}
+
+footer a {
+	display: inline-flex;
+	justify-content: center;
+	align-items: center;
+	color: #fff;
+	font-size: 1.25em;
+	font-family: 'Gochi Hand', cursive;
 }
 
 header {
@@ -53,7 +66,6 @@ a {
 
 .navbar a {
 	margin-left: 28px;
-	font-size: 23px;
 	color: #000;
 	transition: 0.05s;
 }
