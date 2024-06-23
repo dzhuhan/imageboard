@@ -1,0 +1,15 @@
+﻿@import url('https://fonts.googleapis.com/css2?family=Gochi+Hand&family=Noto+Color+Emoji&display=swap');
+
+.page {
+	padding: 0vw 25vw;
+	display: block;
+	text-align: center;
+}
+
+#about_header {
+	margin-top: 50px;
+	padding: 20px;
+	text-align: center;
+	font-size: 2.5em;
+	font-family: 'Gochi Hand';
+}
