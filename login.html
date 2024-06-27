@@ -5,7 +5,7 @@
 	<meta charset="UTF-8">
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
 	<link type="text/css" rel="stylesheet" href="styles/index.css">
-	<link type="text/css" rel="stylesheet" href="styles/about.css">
+	<link type="text/css" rel="stylesheet" href="styles/login.css">
 	<title>Ib</title>
 </head>
 
@@ -17,24 +17,26 @@
 		<nav class="navbar">
 			<a href="tags.html">tags</a>
 			<a href="artists.html">artists</a>
-			<a href="login.html">login</a>
+			<a href="#">login</a>
 		</nav>
 	</header>
 	<div class="page">
-		<h1 id="about_header">About</h1>
-		<p id="about_content">
-			Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod 
-			tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, 
-			quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo 
-			consequat.
-		</p>
-		<br>
-		<p>Contact: <a href="mailto:r5ettugyfhtgsertd@asdf.com">r5ettugyfhtgsertd@asdf.com</a></p>
+		<h1 id="login_header">Login</h1>
+		<form id="query">
+			<label>Username</label>
+			<input type="text" id="username" required>
+			<label>Password</label>
+			<input type="text" id="password" required>
+			<br>
+			<button type="submit">
+				Log in
+			</button>
+		</form>
 	</div>
 	<footer>
 		<a href="terms.html">Terms Of Service</a>
 		<a href="#">Help</a>
-		<a href="#">About</a>
+		<a href="about.html">About</a>
 	</footer>
 	
 	<script src="index.js"></script>
