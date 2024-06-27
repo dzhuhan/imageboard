@@ -4,7 +4,7 @@
 	display: block;
 }
 
-#tags_header {
+.page h1 {
 	padding: 15px;
 	margin-bottom: 1em;
 	text-align: center;
