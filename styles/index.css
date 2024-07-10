@@ -138,6 +138,7 @@ a {
 }
 
 .thumbnail {
+	position: relative;
 	border: 1px solid black;
 	background: #ffffff;
 	transition: 0.1s;
@@ -147,6 +148,50 @@ a {
 	translate: 2px -2px;
 	background: #ffffff;
 	box-shadow: -3px 3px black;
+}
+
+.vote-container {
+	height: 1.125em;
+	width: 100%;
+	position: absolute;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	bottom: 0;
+	background-color: none;
+	cursor: pointer;
+}
+
+.upvote {
+	height: 100%;
+	padding-right: 0.125em;
+	display: inline-flex;
+	justify-content: center;
+	writing-mode: vertical-rl;
+	text-orientation: mixed;
+	font-size: 1.25em;
+	color: black;
+}
+
+.upvote:hover {
+	color: white;
+	background-color: black;
+}
+
+.downvote {
+	height: 100%;
+	padding-right: 0.125em;
+	display: inline-flex;
+	justify-content: center;
+	writing-mode: vertical-rl;
+	text-orientation: mixed;
+	font-size: 1.25em;
+	color: black;
+}
+
+.downvote:hover {
+	color: white;
+	background-color: black;
 }
 
 .pagination {
