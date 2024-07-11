@@ -30,7 +30,11 @@ button {
 }
 
 #forgot {
-	padding-top: 0.25em;
+	margin-top: 0.25em;
 	text-align: right;
 	font-family: 'Gochi Hand';
+}
+
+#forgot:hover {
+	color: #77f;
 }
