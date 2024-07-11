@@ -19,12 +19,18 @@ form {
 	justify-content: center;
 }
 
-label, input, button {
+label, input, button, #forgot{
 	display: block;
 	width: 100%;
 }
 
 button {
 	font-size: 1.125em;
+	font-family: 'Gochi Hand';
+}
+
+#forgot {
+	padding-top: 0.25em;
+	text-align: right;
 	font-family: 'Gochi Hand';
 }
