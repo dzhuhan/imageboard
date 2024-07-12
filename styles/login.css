@@ -1,5 +1,18 @@
 @import url('https://fonts.googleapis.com/css2?family=Gochi+Hand&family=Noto+Color+Emoji&display=swap');
 
+#register-content {
+	display: none;
+}
+
+a {
+	font-family: 'Gochi Hand';
+}
+
+a:hover {
+	cursor: pointer;
+	color: #77f;
+}
+
 .page {
 	display: flex;
 	flex-direction: column;
@@ -24,6 +37,15 @@ label, input, button, #forgot{
 	width: 100%;
 }
 
+label {
+	padding-top: 0.2em;
+}
+
+label span {
+	margin-left: 0.5em;
+	font-family: 'Gochi Hand';
+}
+
 button {
 	font-size: 1.125em;
 	font-family: 'Gochi Hand';
@@ -35,6 +57,11 @@ button {
 	font-family: 'Gochi Hand';
 }
 
-#forgot:hover {
+a {
+	font-family: 'Gochi Hand';
+}
+
+a:hover {
+	cursor: pointer;
 	color: #77f;
 }

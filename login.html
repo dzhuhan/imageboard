@@ -20,18 +20,37 @@
 			<a href="#">login</a>
 		</nav>
 	</header>
-	<div class="page">
+	<div class="page" id="login-content">
 		<h1>Login</h1>
 		<form id="query">
 			<label>Username</label>
 			<input type="text" id="username" required>
 			<label>Password</label>
 			<input type="text" id="password" required>
-			<a id="forgot"href="#">forgot password?</a>
+			<a id="forgot" href="#">forgot password?</a>
 			<br>
 			<button type="submit">
 				Log in
 			</button>
+			<a id="register-link">register</a>
+		</form>
+	</div>
+	<div class="page" id="register-content">
+		<h1>Register</h1>
+		<form id="query">
+			<label>Username</label>
+			<input type="text" id="username" required>
+			<label>Email<span>(optional)</span></label>
+			<input type="text" id="emali">
+			<label>Password</label>
+			<input type="text" id="password" required>
+			<label>Confirm password</label>
+			<input type="text" id="confirm-password" required>
+			<br>
+			<button type="submit">
+				Register
+			</button>
+			<a id="login-link">login</a>
 		</form>
 	</div>
 	<footer>
@@ -40,6 +59,6 @@
 		<a href="about.html">About</a>
 	</footer>
 	
-	<script src="index.js"></script>
+	<script src="javascript/login.js"></script>
 </body>
 </html>
