@@ -18,10 +18,6 @@
 	padding: 1em;
 }
 
-.comments-container span{
-	font-size: 1.2em;
+.user-link {
 	font-weight: bold;
-}
-.comment {
-	font-size: 1em;
 }
