@@ -1,0 +1,27 @@
+.grid-container {
+	padding: 30px 70px 20px 5px;
+	display: flex;
+}
+
+.grid-container div {
+	width: 100%;
+}
+
+.thumbnail:hover {
+	translate: 0px 0px;
+	background: #ffffff;
+	box-shadow: none;
+	border: 2px solid black;
+}
+
+.comments-container {
+	padding: 1em;
+}
+
+.comments-container span{
+	font-size: 1.2em;
+	font-weight: bold;
+}
+.comment {
+	font-size: 1em;
+}
