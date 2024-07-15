@@ -56,12 +56,3 @@ button {
 	text-align: right;
 	font-family: 'Gochi Hand';
 }
-
-a {
-	font-family: 'Gochi Hand';
-}
-
-a:hover {
-	cursor: pointer;
-	color: #77f;
-}
