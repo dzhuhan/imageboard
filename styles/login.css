@@ -56,3 +56,15 @@ button {
 	text-align: right;
 	font-family: 'Gochi Hand';
 }
+
+.question {
+	color: grey;
+}
+
+.question, #login-link, #register-link {
+	display: block;
+	width: 100%;
+	text-align: center;
+	cursor: pointer;
+	font-family: 'Gochi Hand';
+}
