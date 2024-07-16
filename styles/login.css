@@ -42,6 +42,7 @@ label {
 }
 
 label span {
+	color: grey;
 	margin-left: 0.5em;
 	font-family: 'Gochi Hand';
 }
