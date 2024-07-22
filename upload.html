@@ -15,31 +15,26 @@
 	<header>
 		<a href="index.html" id="logo">ImageBoard</a>
 		<nav class="navbar">
-			<a href="upload.html">upload</a>
+			<a href="#">upload</a>
 			<a href="tags.html">tags</a>
 			<a href="artists.html">artists</a>
-			<a href="#">login</a>
+			<a href="login.html">login</a>
 		</nav>
 	</header>
 	
-	<div class="page" id="register-content">
-		<h1>Register</h1>
+	<div class="page" id="login-content">
+		<h1>Upload</h1>
 		<form id="query">
-			<label>Username</label>
-			<input type="text" id="username" required>
-			<label>Email<span>(optional)</span></label>
-			<input type="text" id="emali">
-			<label>Password</label>
-			<input type="text" id="password" required>
-			<label>Confirm password</label>
-			<input type="text" id="confirm-password" required>
+			<input type="file" id="upload_image">
+			<label>Artist</label>
+			<input type="text" id="artist" required>
+			<label>Tags</label>
+			<textarea id="tags" rows="4"></textarea>
+			<br>
 			<br>
 			<button type="submit">
-				Register
+				Upload
 			</button>
-			<br>
-			<span class="question">Already have an account?</span>
-			<a href="login.html" id="login-link">login</a>
 		</form>
 	</div>
 	
