@@ -138,6 +138,8 @@ a {
 }
 
 .thumbnail {
+	display: flex;
+	flex-direction: column;
 	position: relative;
 	border: 1px solid black;
 	background: #ffffff;
@@ -148,6 +150,12 @@ a {
 	translate: 2px -2px;
 	background: #ffffff;
 	box-shadow: -3px 3px black;
+}
+
+.thumbnail img {
+	object-fit: cover;
+	width: 100%;
+	height: 100%;
 }
 
 .vote-container {
